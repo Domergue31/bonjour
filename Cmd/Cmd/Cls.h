@@ -8,7 +8,7 @@ public:
 #pragma endregion constructor
 #pragma region methods
 public:
-	void Clear();
+	static void Clear();
 #pragma endregion methods
 };
 
