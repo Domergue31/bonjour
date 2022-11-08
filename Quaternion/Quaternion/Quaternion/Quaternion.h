@@ -58,11 +58,17 @@ public:
 	/// <returns>Quaternion</returns>
 	static Quaternion Negate(const Quaternion& _value);
 
-	static Quaternion
+	//static Quaternion
 #pragma endregion methods
 #pragma region operator
 public:
-
+	Quaternion operator+(const Quaternion& _other) const;
+	Quaternion operator-(const Quaternion& _other) const;
+	Quaternion operator*(const Quaternion& _other) const;
+	Quaternion operator/(const Quaternion& _other) const;
+	bool operator==(const Quaternion& _other);
+	bool operator!=(const Quaternion& _other);
+	Quaternion operator=(const Quaternion& _other);
 #pragma endregion operator
 };
 

@@ -128,12 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ExoQuaternion.cpp" />
-    <ClCompile Include="Mathf.cpp" />
-    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Mathf\Mathf.cpp" />
+    <ClCompile Include="Quaternion\Quaternion.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Mathf.h" />
-    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Mathf\Mathf.h" />
+    <ClInclude Include="Quaternion\Quaternion.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

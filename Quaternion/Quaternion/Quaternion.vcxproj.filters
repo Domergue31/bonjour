@@ -18,18 +18,18 @@
     <ClCompile Include="ExoQuaternion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Quaternion.cpp">
+    <ClCompile Include="Quaternion\Quaternion.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Mathf.cpp">
+    <ClCompile Include="Mathf\Mathf.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Quaternion.h">
+    <ClInclude Include="Quaternion\Quaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Mathf.h">
+    <ClInclude Include="Mathf\Mathf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
