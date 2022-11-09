@@ -129,12 +129,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Mathf\Mathf.cpp" />
+    <ClCompile Include="Quaternion\Quaternion.cpp" />
     <ClCompile Include="Vector4\Vector4.cpp" />
     <ClCompile Include="Vector4Correction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Assert\AssertMacro.h" />
     <ClInclude Include="Mathf\Mathf.h" />
+    <ClInclude Include="Quaternion\Quaternion.h" />
     <ClInclude Include="Vector4\Vector4.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

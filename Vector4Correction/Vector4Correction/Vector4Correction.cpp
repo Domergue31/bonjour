@@ -9,7 +9,7 @@
 
 int main()
 {
-    Vector4 _a = Vector4::Zero;
+    
     
 
 
@@ -21,6 +21,7 @@ int main()
 
 
 /*
+POUR LES VECTEURS   
 Vector4 _b = Vector4::One;
     Vector4 _c = Vector4(2);
 

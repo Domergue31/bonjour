@@ -28,3 +28,18 @@ float Mathf::Abs(const float _value)
 {
     return std::abs(_value);
 }
+
+float Mathf::Acos(const float _value)
+{
+    return std::acos(_value);
+}
+
+float Mathf::Cos(const float _value)
+{
+    return std::cos(_value);
+}
+
+float Mathf::Sin(const float _value)
+{
+    return std::sin(_value);
+}
